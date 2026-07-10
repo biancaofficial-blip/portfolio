@@ -1,26 +1,49 @@
-<<<<<<< HEAD
-# Portfólio
+# Portfólio Pessoal
 
-Bem-vindo ao meu portfólio!
+Este repositório contém o meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript.
 
-Este projeto foi desenvolvido para apresentar minha trajetória profissional, habilidades técnicas e projetos como Desenvolvedora Front-end.
+## Sobre o projeto
 
-## 🚀 Tecnologias
+O objetivo deste projeto é apresentar meu perfil profissional, minhas habilidades em desenvolvimento front-end e os projetos práticos que estou construindo durante minha transição para a área de tecnologia.
+
+## Site publicado
+
+Acesse aqui: https://biancaofficial-blip.github.io/portfolio/
+
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
 - Git
 - GitHub
+- GitHub Pages
 
-## 🎯 Objetivo
+## Seções do portfólio
 
-Criar um portfólio moderno, responsivo e organizado para demonstrar minha evolução profissional e meus projetos.
+- Apresentação inicial
+- Sobre mim
+- Projetos
+- Tecnologias
+- Contato
 
-## 📌 Status
+## Como visualizar localmente
 
-🚧 Em desenvolvimento
-=======
-# portfolio
-Meu portfólio profissional desenvolvido com HTML, CSS e JavaScript.
->>>>>>> ffedc1fb860ec80fb331d6bc8f35f29b63671fe8
+1. Clone este repositório:
+```bash
+git clone https://github.com/biancaofficial-blip/portfolio.git
+```
+
+2. Abra a pasta do projeto no VS Code.
+
+3. Abra o arquivo `index.html` no navegador.
+
+## Status do projeto
+
+Em desenvolvimento. Novos projetos e melhorias visuais serão adicionados gradualmente.
+
+## Contato
+
+- GitHub: https://github.com/biancaofficial-blip
+- LinkedIn: coloque-aqui-seu-link-correto
+- E-mail: bianca_garcia@outlook.com
