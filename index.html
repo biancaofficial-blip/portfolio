@@ -5,21 +5,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bianca Oliveira Garcia | Desenvolvedora Front-End</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-    <header>
-        <nav><!-- Menu -->
+<body><!-- logo/nome + menu -->
+    <header class="header">
+        <div class="container">
 
-        </nav>
-        <main>
-            <h1>Bianca Oliveira Garcia </h1>
-            <p>Desenvolvedora Front-End</p>
-        </main>
+            <nav class="nav">
+
+                <h1 class="logo">Bianca Garcia</h1>
+
+                <ul class="nav-list">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#skills">Tecnologias</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+
+            </nav>
+        </div>
 
     </header>
-    <footer>
 
+    <main>
+        <section class="hero" id="hero">
+  <div class="container">
+    <p class="hero-tag">Portfólio Front-end</p>
+
+    <h2>Desenvolvedora Front-end focada em interfaces responsivas e projetos práticos</h2>
+
+    <p class="hero-text">
+      Sou Bianca Garcia, em transição para a área de tecnologia, construindo projetos com HTML,
+      CSS e JavaScript para fortalecer meu portfólio e minha base em desenvolvimento front-end.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">Ver projetos</a>
+      <a href="#contact" class="btn secondary">Entrar em contato</a>
+    </div>
+  </div>
+</section>
+
+
+        <!-- sobre mim -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <p>
+                    Sou Bianca Garcia, formada em Análise e Desenvolvimento de Sistemas e em transição para a área
+                    de desenvolvimento front-end. Tenho construído minha base com HTML, CSS, JavaScript, Git e GitHub,
+                    criando projetos práticos para fortalecer meu portfólio e evoluir tecnicamente.
+                </p>
+                <p>
+                    Minha trajetória também inclui experiência com suporte técnico e atendimento, o que desenvolveu
+                    habilidades como organização, resolução de problemas, atenção aos detalhes e adaptação a novos
+                    contextos.
+                    Hoje, busco aplicar essas competências na criação de interfaces funcionais, responsivas e bem
+                    estruturadas.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2>Projetos</h2>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Landing Page Responsiva</h3>
+                        <p>
+                            Página desenvolvida para praticar estruturação semântica, responsividade
+                            e organização visual com HTML, CSS e JavaScript.
+                        </p>
+                        <p class="stack">HTML • CSS • JavaScript</p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Lista de Tarefas</h3>
+                        <p>
+                            Aplicação criada para praticar manipulação do DOM, eventos
+                            e armazenamento local no navegador.
+                        </p>
+                        <p class="stack">JavaScript • DOM • Local Storage</p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Calculadora</h3>
+                        <p>
+                            Projeto voltado ao treino de lógica, operações matemáticas
+                            e interação com eventos na interface.
+                        </p>
+                        <p class="stack">JavaScript • Eventos</p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Consumo de API</h3>
+                        <p>
+                            Aplicação para buscar dados externos com fetch(),
+                            interpretar respostas JSON e exibir resultados em tela.
+                        </p>
+                        <p class="stack">JavaScript • Fetch API • JSON</p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Dashboard Responsivo</h3>
+                        <p>
+                            Interface com cards e gráficos simples para praticar layout responsivo,
+                            organização visual e apresentação de dados.
+                        </p>
+                        <p class="stack">HTML • CSS • JavaScript</p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Portfólio Pessoal</h3>
+                        <p>
+                            Projeto desenvolvido para apresentar meu perfil profissional,
+                            minhas habilidades e minha evolução prática em front-end.
+                        </p>
+                        <p class="stack">HTML • CSS • JavaScript</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2>Tecnologias</h2>
+
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Responsividade</li>
+                    <li>Manipulação do DOM</li>
+                    <li>Fetch API</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+  <div class="container">
+    <h2>Contato</h2>
+    <p>Você pode me encontrar pelos links abaixo:</p>
+
+    <div class="contact-links">
+      <a href="https://github.com/biancaofficial-blip" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/garcia-bianca" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:bianca_garcia@outlook.com">E-mail</a>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <p>© 2026 Bianca Garcia. Desenvolvedora Front-end em transição.</p>
+  </div>
+</footer>
+        <!-- copyright ou mensagem final -->
     </footer>
 </body>
 
