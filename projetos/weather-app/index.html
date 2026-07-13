@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Clima agora</h1>
+
+    <form id="weather-form" class="search-box">
+      <input
+        type="text"
+        id="city-input"
+        placeholder="Digite uma cidade"
+        required
+      />
+      <button type="submit">Buscar</button>
+    </form>
+
+    <section class="weather-card" id="weather-card">
+      <h2 id="city-name">---</h2>
+      <p id="temperature">--°C</p>
+      <p id="description">---</p>
+      <p id="details">Máx: --°C | Mín: --°C</p>
+    </section>
+
+    <p id="message"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
